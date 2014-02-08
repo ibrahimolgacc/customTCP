@@ -4,7 +4,7 @@ customTCP
 Project for a grad level network course at MST.
 Both the server and client run a custom reliable data transfer protocol to exchange app-layer files.
 Everything for the protocol is done above the socket API(using UDP).
-    - public lab project, no access rights to change the protocol stack in the OS
+- public lab project, no access rights to change the protocol stack in the OS
 The service must detect/retransmit packet loss.
     -
 
