@@ -3,13 +3,14 @@ customTCP
 
 ### Summary
 Project for a grad level network course at MST. <br>
+Most of code is in myTCP. <br>
 Both the server and client run a custom reliable data transfer protocol to exchange app-layer files. <br>
-public lab project, no access rights to change the protocol stack in the OS
+It was a public lab project, no access rights to change the protocol stack in the OS:
 
 > Everything for the protocol is done above the socket API(using UDP).
 
 <br>
-### Requirements
+### Protocol
 The service must detect/correct packet loss.
 - Retransmits 
 
